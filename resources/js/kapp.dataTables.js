@@ -159,5 +159,17 @@
         
         return objects;
     };
+	
+	$.fn.kappDataTable.SelectedRows = function () {
+
+        objects = new Array();
+        
+        $(oTable.fnSettings().aoData).each(function () {        	
+            if($(this.nTr).hasClass('row_selected'))            	
+            	objects.push($(this.nTr));
+        });
+        
+        return objects;
+    };
 
 })(jQuery);
