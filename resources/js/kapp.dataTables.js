@@ -17,7 +17,9 @@
         "bFilter": true,
         "bPaginate": true,
         "bInfo": true,
-        "iDisplayLength": 10
+        "iDisplayLength": 10,
+        "aLengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
+        "fnFooterCallback" : function () { }
     };
 
     var settings, selector, oTable, shiftHeld = false;
@@ -100,7 +102,8 @@
             "bFilter": settings.bFilter,
             "bPaginate": settings.bPaginate,
             "bInfo": settings.bInfo,
-            "iDisplayLength" : settings.iDisplayLength
+            "iDisplayLength" : settings.iDisplayLength,
+            "fnFooterCallback" : settings.fnFooterCallback
         });
         
         oTable.fnSort( [ [settings.sortColumn, settings.sortOrder] ] );
