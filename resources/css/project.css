@@ -206,6 +206,10 @@ header .navbar .nav > li > a {
 	background-image: url("../img/glyphicons_119_table.png");
 }
 
+.cicon-transfer {
+	background-image: url("../img/glyphicons_457_transfer.png");
+}
+
 .cicon-search {
 	background-image: url("../img/glyphicons_027_search.png");
 }
