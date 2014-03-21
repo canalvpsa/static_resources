@@ -163,6 +163,17 @@
         return objects;
     };
 	
+	$.fn.kappDataTable.Rows = function () {
+
+        objects = new Array();
+        
+        $(oTable.fnSettings().aoData).each(function () {        	
+            objects.push($(this.nTr));
+        });
+        
+        return objects;
+    };
+	
 	$.fn.kappDataTable.SelectedRows = function () {
 
         objects = new Array();
