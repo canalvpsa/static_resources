@@ -5,6 +5,7 @@
 (function ($) {
 
     var defaults = {
+        "RowSelection": true,
         "MultiRowSelection": true,
         "trClickCallback" : function () { },
         "sortColumn" : 0,
@@ -73,7 +74,7 @@
                 }                
             });
         }
-        else {
+        else if (settings.RowSelection){
             $(selector).find('tbody tr').click(function () {
                 if ($(this).hasClass('row_selected')){
                     $(this).removeClass('row_selected');
