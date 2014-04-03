@@ -210,10 +210,22 @@ header .navbar .nav > li > a {
 	background-image: url("../img/glyphicons_457_transfer.png");
 }
 
+.cicon-message-plus {
+	background-image: url("../img/glyphicons_124_message_plus.png");
+}
+
+.cicon-log-book {
+	background-image: url("../img/glyphicons_087_log_book.png");
+}
+
 .cicon-search {
 	background-image: url("../img/glyphicons_027_search.png");
 }
 
+.cicon-create {
+	background-image: url("../img/glyphicons_423_git_create.png");
+}
+ 
 .cicon-refresh {
 	background-image: url("../img/glyphicons_081_refresh.png");
 }
