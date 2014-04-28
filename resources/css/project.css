@@ -147,6 +147,10 @@ header .navbar .nav > li > a {
   	background-image: url("../img/glyphicons_045_calendar.png");
 }
 
+.cicon-eye_open {
+  	background-image: url("../img/glyphicons_051_eye_open.png");
+}
+
 .cicon-parents {
 	background-image: url("../img/glyphicons_024_parents.png");
 }
