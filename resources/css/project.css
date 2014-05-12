@@ -306,7 +306,10 @@ input.cerror:focus, select.cerror:focus, textarea.cerror:focus {
   	
   	div.tooltip {
   		display: none !important;
-  	}
+  	}	
+	
+	.accordion-inner .input-large, .accordion-inner .input-xlarge, .accordion-inner .input-xxlarge, .accordion-inner input[class*="span"], .accordion-inner select[class*="span"], .accordion-inner textarea[class*="span"], .accordion-inner .uneditable-input {				
+		width: 220px;				
+	}
 }
-
 
