@@ -101,6 +101,14 @@ header .navbar .nav > li > a {
   	background-image: url("../img/glyphicons_050_link.png");
 }
 
+.cicon-random {
+  	background-image: url("../img/glyphicons_083_random.png");
+}
+
+.cicon-envelope {
+  	background-image: url("../img/glyphicons_010_envelope.png");
+}
+
 .cicon-settings {
   	background-image: url("../img/glyphicons_280_settings.png");
 }
