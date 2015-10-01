@@ -8,11 +8,41 @@
   	padding-bottom: 10px;
 }
 
+.logotipo-novo {
+	background-image: url("../img/logotipo_novo.png");
+ 	background-position: 10px 10px; 	
+  	background-repeat: no-repeat;
+  	height: 60px;
+  	width: 160px;  	
+  	float:left;
+  	padding-bottom: 10px;
+}
+
 .logotipo-mini {
 	background-image: url("../img/logotipo_mini.png"); 	 
   	background-repeat: no-repeat;
   	height: 26px;
   	width: 35px;  	
+  	float:left;
+  	padding-bottom: 10px;
+  	margin-top: 5px;
+}
+
+.logotipo-mini-novo {
+	background-image: url("../img/logotipo_mini_novo.png"); 	 
+  	background-repeat: no-repeat;
+  	height: 26px;
+  	width: 35px;  	
+  	float:left;
+  	padding-bottom: 10px;
+  	margin-top: 5px;
+}
+
+.logotipo-nome-novo {
+	background-image: url("../img/logotipo_nome_novo.png"); 	 
+  	background-repeat: no-repeat;
+  	height: 26px;
+  	width: 100px;  	
   	float:left;
   	padding-bottom: 10px;
   	margin-top: 5px;
